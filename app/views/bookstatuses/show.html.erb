@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Book name:</strong>
+  <%= @bookstatus.book_name %>
+</p>
+
+<p>
+  <strong>Available:</strong>
+  <%= @bookstatus.available %>
+</p>
+
+<%= link_to 'Edit', edit_bookstatus_path(@bookstatus) %> |
+<%= link_to 'Back', bookstatuses_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  leased: MyString
+  book_name: MyString
+  available: MyString
+
+two:
+  leased: MyString
+  book_name: MyString
+  available: MyString
